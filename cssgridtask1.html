@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+    display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 20px;
+      padding: 20px;
+}
+.grid-item {
+      background-color: #ee037556;
+      color: white;
+      padding: 30px;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 10px;
+
+      border-width: 3px;
+    }
+    .grid-item item1{
+      background-color: #e70c0c;
+    }
+    </style>
+</head>
+<body>
+     <h2 style="padding-left: 40px;"> <b>Meet Our Team</b></h2>
+
+  <div class="grid-container">
+    <div class="grid-item" style=" background-color: rgba(255, 0, 157, 0.418);"><h1 style="color: white;">Amit Sharma</h1><p>Frontend Developer</p></div>
+    <div class="grid-item" style="background-color: rgba(255, 0, 157, 0.418);"><h1 style="color: white;">Neha Gupta</h1><p>UI/UX Designer</p></div>
+    <div class="grid-item" style="background-color: rgba(255, 0, 157, 0.418);"><h1 style="color: white;">Rahul VErma</h1><p>Backend Developer</p></div>
+  </div> 
+</body>
+</html>

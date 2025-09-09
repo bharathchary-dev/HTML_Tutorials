@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function operate(){
+        //     document.body.bgColor="red";
+        // }
+
+        // function operate(){
+        //     var x=document.images[0];
+        //     x.src="facebook.png";
+        // }
+
+       /* function operate(){
+            var x=document.images[0];
+            x.src="ggl.jpeg";
+        }*/
+       /*function operate(){
+        var x = document.links[0];
+        x.href = "https://www.amazon.in/";
+       }
+      function operate(){
+        let x = document.querySelector("p");
+        console.log(x);
+      }
+     function operate(){
+        let x = document.querySelectorAll("a");
+        console.log(x);
+     }
+    function operate(){
+        let nav = document.getElementById("nav1");
+        let li = nav.getElementsByTagNameNS("li");
+        let arr = Array.from(li);
+        arr.forEach(x => {
+            console.log(x);
+        })
+    }
+    function operate(){
+      let element = document.getElementsByClassName("highlight");
+        let arr = Array.from(element);
+        arr.forEach(x => {
+          console.log(x);
+        });
+    }
+   function operate(){
+    let heading = document.querySelector("h3");
+    heading.innerText = "our vision";
+   }
+  function operate(){
+    let ul = document.querySelector("ul");
+        let listItems = ul.querySelectorAll("li");
+        listItems.forEach(item => {
+            item.innerHTML = "<strong>" + item.innerHTML + "<strong>"
+        });
+  }*/
+ function operate(){
+ let ul = document.querySelector("ul");
+        let listItems = ul.querySelectorAll("li");      
+        listItems.forEach(item => {
+            item.innerHTML = item.innerText.toUpperCase();
+        });
+ }
+
+
+    </script>
+</head>
+<body>
+  <img src="logo.jpeg" style="width: 300px; height: 150px;" />
+
+  <div class="highlight"><h2>Welcome To SCA</h2>
+  <h3>Our Mission</h3></div>
+  <p>
+    The mission of the SHARMA COMPUTER ACADEMY is to provide its students with the skills
+  </p>
+  <img src="health.jpg" style="width: 300px; height: 150px;">
+  <h3>Our Courses</h3>
+  <ul>
+
+    <li>C</li>
+    <li>C++</li>
+    <li>Python</li>
+    <li>Django</li>
+    <li>Java</li>
+    <li>Oracle</li>
+
+  </ul>
+
+  <h3>Our Trainers</h3>
+
+  <ul>
+    <li>Mr. Sachin Kapoor</li>
+    <li>Mr. Paramjeet Singh</li>
+    <li>Ms. Seema Sharma</li>
+    <li>Mr. Sanjeev Sharma</li>
+  </ul>
+  <h3>Important links</h3>
+  <a href="http://www.scabhopal.in" target="_blank">Our website</a>
+  <br />
+  <a href="https://www.facebook.com/sharmacomputeracademy/" target="_blank">SCA Page</a>
+  <br />
+  <input type="button" value="Click me" onclick="operate()" />
+</body>
+</html>
